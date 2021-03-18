@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header__top{
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menu__list{
+    display: flex;
+    flex-direction: row;
+}
+.menu__list li{
+    margin-left: 40px;
+    list-style: none;
+}
+.menu__list li:hover{
+    opacity: 0.3;
+    transition: 0.5s;
+}
+.menu__list a {
+    text-decoration: none;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4F5665;
+}
+.header-top__btn{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0B132A;
+    margin-right: -60px;
+}
+.header-top__button{
+    width: 150px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #F53855;
+    border-radius: 50px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F53855;
+}
+.header-top__button:hover{
+    opacity: 0.3;
+    transition: 0.5s;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.header__title{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+    color: #0B132A;
+}
+.header__text{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    margin-top: 20px;
+}
+.header__btn{
+    width: 250px;
+    height: 60px;
+    background: #F53838;
+    border-radius: 10px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 20px 60px 10px rgba(245,56,56,0.35);
+    margin-top: 50px;
+}
+.header__btn:hover{
+    opacity: 0.3;
+    transition: 0.5s;
+}
+.block{
+    width: 1140px;
+    height: 200px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    box-shadow: 0 20px 40px 20px lightgray;
+}
+.block__user,
+.block__locations,
+.block__server{
+    display: flex;
+    align-items: center;
+    margin-left: 90px;
+}
+.block__user .active,
+.block__locations .active,
+.block__server .active{
+    margin-top: -35px;
+    margin-left: 35px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #0B132A;
+}
+.block__user span,
+.block__locations span,
+.block__server span{
+    margin-left: -47px;
+    margin-top: 25px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4F5665;
+}
+.block__line{
+    width: 0px;
+    height: 125px;
+    border: 2px solid #EEEFF2;
+    margin-left: 130px;
+    margin-top: 37px;
+}
+.main__img{
+    margin-top: 95px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.main-container,
+.main-container img{
+    display: flex;
+    flex-direction: column;
+}
+.main__title{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color: #0B132A;
+}
+.main__text{
+    font-family: Rubik;
+    font-style: normal; 
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    margin-top: 20px;
+}
+.main__description span{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    color: #4F5665;
+}
+.plan{
+    background: #E5E5E5;
+    margin-top: 135px;
+    padding-bottom: 100px;
+}
+.plan__title{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: #0B132A;
+    padding-top: 80px;
+}
+.plan__text{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+    margin-top: 20px;
+}
+.plan-block{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+.plan-block__one,
+.plan-block__two,
+.plan-block__three{
+    width: 330px;
+    height: 760px;
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;  
+    border-radius: 10px;
+}
+.plan-block__three{
+    border: 2px solid #F53838;
+}
+.plan-block__img{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.plan-block__text{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center; 
+    color: #0B132A;
+    margin-top: 30px;
+}
+.plan-block__checkbox__img{
+    max-width: 165px;
+    margin: auto;
+    margin-top: 30px;
+}
+.plan-block__checkbox__img span{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    color: #4F5665;
+}
+.plan-block__free{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #0B132A;
+    margin-top: 130px;
+}
+.plan-block__btn{
+    width: 177px;
+    height: 45px;
+    border: 2px solid #F53838;
+    border-radius: 50px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F53838;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+}
+.plan-block__price{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 100px;
+}
+.plan-block__price .active,
+.plan-block__price__premium .active{
+    color: #0B132A;
+}
+.plan-block__price span,
+.plan-block__price__premium span{
+    color: #4F5665;
+}
+.plan-block__price__premium{
+    margin-top: 70px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+}
+.plan-block__button{
+    width: 177px;
+    height: 45px;
+    background: #F53838;
+    border-radius: 50px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 0 20px 60px 10px rgba(245,56,56,0.35);
+}
+.network__title{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: #0B132A;
+    margin-top: 150px;
+}
+.network__text{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+    margin-top: 20px;
+}
+.network__img img{
+    padding: 150px 140px 0 140px;
+}
+.network-icon__images{
+    height: 277px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reviews__title{
+    margin-top: 120px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: #0B132A;
+}
+.reviews__text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+    margin-top: 20px;
+}
+.reviews-block{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.reviews-block__one{
+    background: #FFFFFF;
+    border: 2px solid #F53838;
+    border-radius: 10px;
+    width: 400px;
+    height: 230px;
+}
+.reviews-block__two,
+.reviews-block__three{
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    width: 400px;
+    height: 230px;   
+}
+.reviews-block__img{
+    padding: 30px 0 0 30px;
+}
+
+
+
